@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Analiza danych
+    chapters:
+    - file: notebooks/szczecin_2015_2024.ipynb
+  - caption: Wnioski o dane
+    chapters:
+      - file: public_info_requests/001_Szczecin_2015_2024.FAILED.md
+      - file: public_info_requests/002_Szczecin_2015_2024.md
+      - file: public_info_requests/003_Warszawa_2015_2024.md
+
+

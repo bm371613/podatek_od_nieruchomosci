@@ -9,6 +9,7 @@ packages = [{include = 'lib'}]
 python = "^3.12"
 pandas = "*"
 matplotlib = "*"
+jupyter-book = "^1.0.4.post1"
 
 [build-system]
 requires = ["poetry-core"]
