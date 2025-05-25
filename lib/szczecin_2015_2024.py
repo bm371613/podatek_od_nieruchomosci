@@ -72,14 +72,6 @@ def get_details_df() -> pd.DataFrame:
     return (
         merged_df
         .reset_index()
-        .assign(area_range=lambda df: df['area_min'].map({
-            0: "A: 0-50",
-            50: "B: 50-100",
-            100: "C: 100-200",
-            200: "D: 200-500",
-            500: "E: 500-2000",
-            2000: "F: 2000-",
-        }))
         .astype({
             'area_min': np.float64,
             'area_max': np.float64,
